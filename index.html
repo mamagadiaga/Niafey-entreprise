@@ -39,7 +39,7 @@
               data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars couleur1 fs-3 p-2"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav mx-auto fw-Normal weight text.">
+              <ul class="navbar-nav ms-auto fw-Normal weight text.">
                 <li class="nav-item">
                   <a class="nav-link active fw-bold" aria-current="page" href="#fonctionnement">Acceuil</a>
                 </li>
@@ -57,14 +57,6 @@
                 </li>
                 
               </ul>
-                <div class=" row d-flex flex-column flex-md-row justify-content-start align-items-start justify-content-md-start align-items-md-start">
-                    <div class="col-md-6 colonne">
-                        <a  href="#reservation.html" class="btn boutonrd me-3 w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Reserver</a>
-                    </div>
-                    <div class="col-md-6 colonne">
-                     <a href="#devis.html" class="btn boutonrd fw-bold w-100"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Devis</a>
-                    </div>
-                </div>
             </div>            
             <!-- <div class="btn me-2 rounded-circle">
               <i class="fa-brands fa-whatsapp"></i>
@@ -92,12 +84,14 @@
                         <div class="col-md-4 col-lg-4 col-sm-6">
                          <img src="./images/WhatsApp Image 2023-03-28 at 1.48.34 PMcopie.jpeg" class="w-100 h-100">
                         </div>
-                        <div class="col-md-6">
-                            <h6 class="text-white mt-4 fw-bold">
+                        <div class="col-md-6 ">
+                            <h6 class="text-white mt-4 fw-bold mb-4">
                                 Disponible sur <span class="couleurj">AppStore</span> et <span class="couleurj">PlayStore</span>                           
                             </h6>
+                            <a href="#devis.html" class="btn bouton1 fw-bold w-25"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Devis</a>
+                            <a  href="#reservation.html" class="btn bouton1 w-auto fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Reserver</a>
                         </div>
-                    </div>            
+                    </div>       
                 </div>
             </div>
            
@@ -349,7 +343,7 @@
                         <input type="tel" id="telephone" name="telephone" class="w-100 shadow inputh ps-2" required>
                         </div>
                         <div class="col-md-6">        
-                        <label  class="couleur1 fw-bold" for="type-service">Services</label> <br>
+                        <label  class="couleur1 fw-bold" for="type-service">Services professionelles</label> <br>
                         <select id="serviceProfessionel" name="type-service" required class="w-100 shadow inputh ps-2">
                             <option selected></option>
                             <option>Services professionelles</option>
@@ -391,7 +385,7 @@
                             </div>
                         </div>    -->
                         <div class="form-group row mt-3 ms-2">
-                            <button class="btn fw-bold shadow boutonrd w-100" type="submit" id="enregistrez" data-bs-dismiss="modal">Envoyer</button>
+                            <button class="btn fw-bold shadow boutonrd w-100 me-5" type="submit" id="enregistrez" data-bs-dismiss="modal">Envoyer</button>
                         </div> 
                     </div>  
                     </form>
