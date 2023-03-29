@@ -1,0 +1,565 @@
+*, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+ /* ------------------------------------------------------ DEBUT-LOUM ------------------------------------------------------ */
+
+/* NAVBAR */
+.navbar{
+    background-color: #fcd941;
+    transition: all 0.5s ;
+    }
+    
+    .navbar-scrolled{
+    background-color: #1d293f;
+    color: #fcd941;
+    }
+    
+    .navbar-scrolled a {
+    color: #fcd941 !important;
+    }
+    .navbar-scrolled .nav-link:hover {
+        color: #226677 !important;
+    }
+    .navbar-scrolled .boutonrd {
+        background-color: #fcd941;
+        color: #1d293f !important;
+    }
+    .navbar-scrolled .boutonrd:hover {
+        background-color:  #fcd941;
+        transform: scale(1.1);
+        color: #1d293f !important;
+    }  .navbar-scrolled .boutonrd {
+        background-color: #fcd941;
+        color: #1d293f !important;
+    }
+    .navbar-scrolled .fa-bars{
+        color: #fcd941;
+    }
+.boutonrd{
+    background-color:  #1d293f;
+    color:  #fcd941;
+}
+.boutonrd:hover {
+     background-color:  #1d293f;
+    transform: scale(1.1);
+    color: #fcd941 !important;
+    } 
+.header .navbar-brand .img-fluid {
+    width: 50%;
+    height: auto;
+    /* margin-right: 10%; */
+}
+.header .nav-item {
+    margin: 0 5px;
+}
+.header .nav-item .nav-link {
+    position: relative;
+    display: inline-block;
+    color:  #1d293f;
+    font-size: 18px;
+}
+.header .nav-item .nav-link:hover {
+    color: #226677;
+}
+ .navbar-toggler{
+     border: 1px solid #1d293f;
+    }
+    .navbar-scrolled .navbar-toggler{
+     border: 1px solid #fcd941;
+ }
+/* BANNIERE */
+.banner{
+    background-image: linear-gradient(rgba(51, 49, 49, 0.664),rgba(49, 47, 47, 0.699)), url(./images/menage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titre{
+    color: #fcd941;
+}
+.couleurj{
+    color: #fcd941;
+}
+
+/* BLOG */
+
+
+.card:hover{
+    transform: scale(1.10) translateZ(0);
+}
+
+.hover1:hover{
+    transform: scale(1.10) translateZ(0);
+} 
+.ten{
+    background-image: linear-gradient(rgba(56, 55, 55, 0.658),rgb(56, 55, 55, 0.658)),url('./Medias/istockphoto-144808221-612x612.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ /* ------------------------------------------------------ FIN-LOUM ------------------------------------------------------ */
+
+
+ 
+
+
+
+
+
+
+
+
+ /* ------------------------------------------------------ DEBUT-MAMA ------------------------------------------------------ */
+ .couleur1{
+    color: #1d293f;
+ }
+ .couleur2{
+    color: #7c8087;
+ }
+ .trait{
+    width: 70px;
+    height: 3px;
+    background-color: #fcd941;
+  }
+  .trait1{
+    height: 1px;
+    background-color: #1d293f;
+  }
+.couleur3{
+    color: #296675;
+}
+.couleur4{
+    background-color: #fcd941;
+}
+.couleur5{
+    background-color: #e8f5f8;
+}
+.couleur6{
+    background-color: #e8f5f8;
+}
+.couleur7{
+    color:  #856404;
+}
+
+
+/* slide */
+.testimonial .pic{
+    width: 22%;
+    padding: 20px 0;
+    margin: 0 6% 0 2%;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.testimonial .pic:before,
+.testimonial .pic:after{
+    content: "";
+    width: 130px;
+    height: 150px;
+    background: #fcd941;
+    position: absolute;
+    z-index: -1;
+}
+.testimonial .pic:before{
+    top: 0;
+    right: -20px;
+}
+.testimonial .pic:after{
+    bottom: 0;
+    left: -20px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border: 3px solid #fcd941;
+}
+.testimonial .testimonial-content{
+    width: 70%;
+    float: right;
+}
+.testimonial .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d293f;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 65px;
+    padding-left: 15px;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #1d293f;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+.testimonial .description{
+    font-size: 16px;
+    color: #1d293f;
+    padding: 0 15px;
+    margin: 0;
+    position: relative;
+}
+.testimonial .description:before,
+.testimonial .description:after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    font-size: 17px;
+    color: #fcd941;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    margin-right: 5px;
+    top: 0;
+    left: 0;
+}
+.testimonial .description:after{
+    content: "\f10e";
+    margin-left: 5px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.owl-theme .owl-controls{
+    width: 70%;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    width: 50px;
+    height: 50px;
+    line-height: 0px;
+    background: transparent;
+    border-radius: 0;
+    opacity: 1;
+    position: relative;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f177";
+    font-family: "fontawesome";
+    font-size: 20px;
+    font-weight: 900;
+    color: #fcd941;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+.owl-next:before{
+    content: "\f178";
+}
+
+@media only screen and (max-width: 990px){
+    .testimonial{ text-align: center; }
+    .testimonial .pic{
+        width: 200px;
+        margin: 0 auto;
+        float: none;
+    }
+    .testimonial .pic:before,
+    .testimonial .pic:after{
+        width: 80px;
+        height: 100px;
+    }
+    .testimonial .testimonial-content{
+        width: 100%;
+        float: none;
+    }
+    .testimonial .title{
+        padding: 15px 0 0 0;
+    }
+    .testimonial .post{
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .owl-theme .owl-controls{
+        width: 100%;
+        position: static;
+        text-align: center;
+    }
+    .owl-theme .owl-controls .owl-buttons div{
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 993px) {
+
+    .textp{
+        width: 100% !important;
+    }
+    .banner{
+        background-image: linear-gradient(rgba(51, 49, 49, 0.664),rgba(49, 47, 47, 0.699)), url(./images/33190903-heureux-jeune-femme-africaine-cuisine-de-nettoyage-contre.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+/* @media (max-width: 605px) {
+
+    .para{
+       padding: 0;
+       margin: 0;
+    }
+} */
+@media (max-width: 993px) {
+
+    .owl-prev:before,
+    .owl-next:before{
+    top: 0%;
+    left: 25%;
+}
+}
+
+ /* ------------------------------------------------------ FIN-MAMA ------------------------------------------------------ */
+.formulaire, #form{
+    width: 60%;
+    height: 550px !important;
+    background-image: url(./images/image-footer.fdc457a8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app{
+    background-color: #e8f5f8;
+}
+.bouton:hover{
+    transform: scale(1.1);
+}
+.bouton1{
+    background-color: #1d293f;
+    color: #fcd941;
+}
+.bouton1:hover{
+    transform: scale(1.1);
+    background-color: #fcd941;
+    color: #1d293f;
+}
+ 
+footer{
+    background-color: #e8f5f8;
+}
+/* whatsapp */
+#whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    color:  #1d293f !important;
+  }
+  
+  @media (max-width: 775px) {
+
+    .formulaire{
+        width: 100%;
+        height: 600px !important;
+    }
+    .colonne{
+        margin-top: 20px;
+    }
+    .boutonrd{
+        width: 25% !important;
+    }
+}
+
+
+/* blog */
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+
+:root {
+  --color: #1d293f;
+  --transition-time: 0.5s;
+}
+
+
+.cards-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.card {
+  font-family: 'Heebo';
+  --bg-filter-opacity: 0.5;
+  background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
+  height: 10em;
+  width: 15em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  /*margin: 2em;*/
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  transition: all, var(--transition-time);
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fcd941;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: rotate(0);
+}
+
+.card h1 {
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+.card p {
+  font-size: 0.75em;
+  font-family: 'Open Sans';
+  margin-top: 0.5em;
+  line-height: 2em;
+}
+
+.card .tags {
+  display: flex;
+}
+
+.card .tags .tag {
+  font-size: 0.75em;
+  border-radius: 0.3rem;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  line-height: 1.5em;
+  transition: all, var(--transition-time);
+}
+
+.card:hover .tags .tag {
+  background: var(--color);
+  color: white;
+}
+
+.card .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: .8;
+}
+
+.card:before, .card:after {
+  content: '';
+  transform: scale(0);
+  transform-origin: top left;
+  border-radius: 50%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  z-index: -5;
+  transition: all, var(--transition-time);
+  transition-timing-function: ease-in-out;
+}
+
+.card:before {
+  background: #ddd;
+  width: 250%;
+  height: 250%;
+}
+
+.card:after {
+  background: white;
+  width: 200%;
+  height: 200%;
+}
+
+.card:hover {
+  color: var(--color);
+}
+
+.card:hover:before, .card:hover:after {
+  transform: scale(1);
+}
+
+
+.info img {
+  height: 3em;
+  margin-right: 0.5em;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1285px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .info {
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .cards-wrapper {
+    padding: 4rem 2rem;
+  }
+  .card {
+    max-width: calc(100vw - 4rem);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .info h1 {
+    margin: 0;
+  }
+}
+
+
+
+
+
+ /* ------------------------------------------------------ DEBUT-MASSAER ------------------------------------------------------ */
+ #devis-form{
+    /* background-color: #1d293f; */
+    background-image: url('./images/image-footer.fdc457a8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+.inputh{
+    height: 35px;
+    border: 1px solid #1d293f;
+}
+#envoyer{
+    background-color: #1d293f;
+    color: #fff;
+}
+#envoyer:hover{
+    transform: scale(1.1);
+}
+
+
+ /* ------------------------------------------------------ FIN-MASSAER ------------------------------------------------------ */

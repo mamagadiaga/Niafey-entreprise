@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>NIAFEY</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />    
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <!-- slide -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <!-- AOS -->
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+</head>
+<body> 
+
+
+    <!------------------------------------------------------ DEBUT-LOUM ------------------------------------------------------>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand text-light" href="./index.html"><img src="./images/logo-niafey.png" class="img-fluid"></a>
+            <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars couleur1 fs-3 p-2"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto fw-Normal weight text.">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="#fonctionnement">Acceuil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#services">Services </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#client">Clients</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#contacts">Contacts</a>
+                </li>
+                
+              </ul>
+                <div class=" row d-flex flex-column flex-md-row justify-content-start align-items-start justify-content-md-start align-items-md-start">
+                    <div class="col-md-6 colonne">
+                        <a  href="#reservation.html" class="btn boutonrd me-3 w-100 fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Reserver</a>
+                    </div>
+                    <div class="col-md-6 colonne">
+                     <a href="#devis.html" class="btn boutonrd fw-bold w-100"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Devis</a>
+                    </div>
+                </div>
+            </div>            
+            <!-- <div class="btn me-2 rounded-circle">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div> -->
+          </div>
+        </nav>
+      </header>
+      
+      <!------------------------------------------------------ Banniere ------------------------------------------------------>
+      <section class="banner p-5 mt-5">
+        <div class="container mt-5">
+            <div class="row p-5 d-flex flex-wrap flex-wrap-reverse d-sm-flex flex-sm-wrap flex-sm-wrap-reverse d-md-flex flex-sm-wrap flex-md-wrap-reverse">
+                <div class="col-md-4 col-sm-12 col-lg-4"  data-aos="fade-right">
+                    <img src="./images/mobile-phone.3a96db31.png" class="w-100 h-100">
+                </div>
+                <div class="col-md-8 col-sm-12 col-lg-8 text-lg-end text-md-end text-sm-center"  data-aos="fade-left">
+                    <h1 class="fw-bold couleurj" id="titre">NIAFEY,
+                        c’est simple, c’est facile, c’est rapide.
+                    </h1>
+                     <p class="text-white">
+                        Ne perdez plus de temps à chercher les bons professionnels pour vos besoins de services. Téléchargez dès maintenant 
+                        l'application Niafey et commencez à trouver les meilleurs prestataires dans votre région.                  
+                    </p> 
+                    <div class=" row d-flex flex-column justify-content-lg-center align-items-lg-end justify-content-sm-center align-items-sm-center justify-content-md-end align-items-md-end">
+                        <div class="col-md-4 col-lg-4 col-sm-6">
+                         <img src="./images/WhatsApp Image 2023-03-28 at 1.48.34 PMcopie.jpeg" class="w-100 h-100">
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-white mt-4 fw-bold">
+                                Disponible sur <span class="couleurj">AppStore</span> et <span class="couleurj">PlayStore</span>                           
+                            </h6>
+                        </div>
+                    </div>            
+                </div>
+            </div>
+           
+        </div>
+    
+      </section>
+
+
+ <!------------------------------------------------------ FIN-LOUM ------------------------------------------------------>
+
+
+
+
+
+
+
+<!------------------------------------------------------ DEBUT-MAMA ------------------------------------------------------>
+    <section id="fonctionnement" class="d-flex justify-content-center align-items-center flex-column mt-5">
+        <h1 class="couleur1 fw-bold">A propos de nous</h1>
+        <h6 class="couleur2 mt-2 fw-light">Réservez votre professionnel en 3 minutes !</h6>
+        <h6 class="trait mt-2"></h6>
+
+
+        <div class="marche">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="col-md-6 col-sm-4 col-lg-3 colonne"  data-aos="flip-left">
+                        <div class="text-center">
+                            <img src="./images/presta1.png" class=" mb-3">
+                            <h1 class="couleur3">1</h1>
+                            <h5 class="couleur1">Trouver votre prestataire</h5>
+                            <p class="couleur2">Choisissez un type de service , Parcourez la liste des prestataires</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-4 col-lg-3 colonne"  data-aos="flip-left">
+                        <div class="text-center">
+                            <img src="./images/presta2.png" class=" mb-3">
+                            <h1 class="couleur3">2</h1>
+                            <h5 class="couleur1">Choisissez votre date et heure de rendez-vous</h5>
+                            <p class="couleur2">Visualisez l’agenda et les disponibilités</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-4 col-lg-3 colonne" data-aos="flip-right">
+                        <div class="text-center">
+                            <img src="./images/presta3.png" class=" mb-3">
+                            <h1 class="couleur3">3</h1>
+                            <h5 class="couleur1">Discutez avec votre prestataire</h5>
+                            <p class="couleur2">Vous pouvez envoyer un message audio pour détailler le service souhaité</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-4 col-lg-3 colonne" data-aos="flip-right">
+                        <div class="text-center">
+                            <img src="./images/presta4.png" class=" mb-3">
+                            <h1 class="couleur3">4</h1>
+                            <h5 class="couleur1">Donnez une note au prestatairee</h5>
+                            <p class="couleur2">A la fin de la prestation donnez une note , dites ce que vous avez pensé de la prestation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="mt-5">
+        <div class="container-fluid couleur4" data-aos="fade-up">
+              <div class="row p-5 d-flex justify-content-center align-items-center">
+                <div class="col-md-6 col-sm-12 col-lg-4  colonne">
+                    <h1 class="couleur3">NIAFEY, c’est simple, c’est facile, c’est rapide</h1>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-2 colonne">
+                        <p class="text-black"><i class="fas fa-shield"></i> <br>
+                            Avis vérifiés des <br> clients</p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-2 colonne">
+                        <p class="text-black"><i class="fas fa-briefcase"></i> <br>
+                            Accessible partout au <br> Sénégal</p>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-2 colonne">
+                        <p class="text-black"><i class="fas fa-phone-volume"></i> <br>
+                            Services 24/24 et <br> 7j/7</p>
+                </div>
+              </div>
+        </div>
+    
+        <div class="container services mt-5">
+            <div class="d-flex justify-content-center flex-column align-items-center text-center"  data-aos="fade-up">
+                <h1 class="couleur1 fw-bold">Nos services</h1>
+                <h6 class="couleur2 mt-3 w-50 textp">
+                    Niafey est une plateforme unique pour tous vos besoins de services à domicile.
+                    Elle permet d’accéder rapidement à des professionnels qualifiés près de chez vous.
+                    Super fluide et très facile d’utilisation, l’application est téléchargeable au Sénégal et partout dans le monde
+                </h6>
+            </div>
+
+            <div class="row mt-5 p-5">
+                <div class="col-md-12 col-sm-12 col-lg-4  colonne" data-aos="fade-right">
+                    <h3 class="couleur1 fw-bold mb-3">Des professionnels qualifiés à la journée!</h3>
+                    <ul class="couleur2 fs-4">
+                        <li class="mt-2">Electriciens</li>
+                        <li class="mt-2">Coiffeuses à domicile</li>
+                        <li class="mt-2">Plombiers</li>
+                        <li class="mt-2">Menusiers</li>
+                        <li class="mt-2">Femmes de ménage à la journée</li>
+                        <li class="mt-2">Cuisinières pour évènements familiaux</li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-sm-12 col-lg-4 colonne p-4 pt-0" data-aos="fade-up">
+                    <img src="./images/service.0d2ab031.png" class="w-100">
+                </div>
+                <div class="col-md-12 col-sm-12 col-lg-4 colonne" data-aos="fade-left">
+                    <h4 class="couleur1 fw-bold mb-3">Des centaines de femmes de ménages mensuelles selectionnées avec soins !</h4>
+                    <ul class="couleur2 fs-4">
+                        <li class="mt-2">Nounous</li>
+                        <li class="mt-2">Cuisinères</li>
+                        <li class="mt-2">Aides aux tâches ménagères</li>
+                        <li class="mt-2">Lingères</li>
+                    </ul>
+                </div>
+            </div>
+        </div>      
+    </section>
+
+    <section id="client" class="mt-5 couleur5 p-5" data-aos="fade-left">
+        <h1 class="couleur1 fw-bold text-center">Nos clients s'expriment</h1>
+        <div class="demo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="./images/client.jpg" alt="">
+                                </div>
+                                <div class="testimonial-content">
+                                    <h3 class="title">Williamson</h3>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor nibh, semper at pretium vitae, tincidunt non risus. Aenean mattis sit amet ex nec venenatis. Pellentesque tempus pellentesque efficitur. Nulla commodo bibendum quam, at imperdiet orci congue non. Maecenas interdum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="./images/120887366-portrait-d-un-jeune-homme-asiatique-le-visage-d-un-étudiant-étranger-la-diversité-illustration.webp" alt="">
+                                </div>
+                                <div class="testimonial-content">
+                                    <h3 class="title">Malick</h3>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor nibh, semper at pretium vitae, tincidunt non risus. Aenean mattis sit amet ex nec venenatis. Pellentesque tempus pellentesque efficitur. Nulla commodo bibendum quam, at imperdiet orci congue non. Maecenas interdum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+  <!-- Modal1 -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content border-0 bg-transparent">
+        <div class="modal-body">
+            <div class="container-fluid mt-5">
+                <form id="devis-form" class="bg-white p-5 pt-4 shadow rounded-3">
+                <h3 class="couleur1 fw-bold text-center mb-5">DEVIS</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                    <label  class="couleur1 fw-bold" for="nom">Nom</label> <br>
+                    <input type="text" id="nom" name="nom" class="w-100 shadow inputh" required>
+                    </div>
+                    <div class="col-md-6">
+                    <label  class="couleur1 fw-bold" for="email">Email</label> <br>
+                    <input type="email" id="email" name="email" class="w-100 shadow inputh" required>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                    <label  class="couleur1 fw-bold" for="telephone">Tel</label> <br>
+                    <input type="tel" id="telephone" name="telephone" class="w-100 shadow inputh" required>
+                    </div>
+                    <div class="col-md-6">        
+                    <label  class="couleur1 fw-bold" for="type-service">Service</label> <br>
+                    <select id="type-service" name="type-service" required class="w-100 shadow inputh">
+                        <option value="nettoyage-residentiel"></option>
+                        <option value="nettoyage-residentiel">Nettoyage résidentiel</option>
+                        <option value="nettoyage-commercial">Nettoyage commercial</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">        
+                    <label  class="couleur1 fw-bold" for="surface">Surface en m2</label> <br>
+                    <input type="number" id="surface" name="surface" class="w-100 shadow inputh" min="1" required>
+                    </div>
+                    <div class="col-md-6">
+                    <label  class="couleur1 fw-bold" for="duree">Durée en H</label> <br>
+                    <select id="duree" name="duree" required class="w-100 shadow inputh">
+                        <option value="nettoyage-residentiel"></option>
+                        <option value="1">1 heure</option>
+                        <option value="2">2 heures</option>
+                        <option value="3">3 heures</option>
+                        <option value="4">4 heures</option>
+                        <option value="5">5 heures</option>
+                    </select>
+                    </div>
+                    <div class="row mt-3">
+                    <label  class="couleur1 fw-bold" for="description">Description</label> <br>
+                    <textarea id="description" name="description" class="ms-3" rows="5" cols="30" required></textarea>
+                    </div>
+                    <div class="row mt-3">
+                    <p id="prix"></p>
+                    </div>
+                    <div class="form-group row mb-3 ms-2">
+                        <button class="btn fw-bold shadow" type="submit" id="envoyer" data-bs-dismiss="modal">Envoyer</button>
+                    </div>   
+                </div>  
+                </form>
+            </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Modal2 -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content border-0 bg-transparent">
+            <div class="modal-body">
+                    <form id="form" class="bg-white p-5 pt-4 w-100 shadow rounded-3">
+                    <h3 class="couleur1 fw-bold text-center mb-5">Réservation</h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                        <label  class="couleur1 fw-bold" for="nom" id="basic-addon1">Nom</label> <br>
+                        <input type="text" id="id="FullName"" name="nom" class="w-100 shadow inputh" required>
+                        </div>
+                        <div class="col-md-6">
+                        <label  class="couleur1 fw-bold" for="email">Email</label> <br>
+                        <input type="email" id="email" name="email" class="w-100 shadow inputh" required>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                        <label  class="couleur1 fw-bold" for="telephone">Tel</label> <br>
+                        <input type="tel" id="telephone" name="telephone" class="w-100 shadow inputh" required>
+                        </div>
+                        <div class="col-md-6">        
+                        <label  class="couleur1 fw-bold" for="type-service">Services</label> <br>
+                        <select id="serviceProfessionel" name="type-service" required class="w-100 shadow inputh">
+                            <option selected></option>
+                            <option>Services professionelles</option>
+                            <option value="1">Néttoyage  bureau</option>
+                            <option value="2">Néttoyage espaces commerciaux</option>
+                            <option value="3">Autres</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">        
+                        <label  class="couleur1 fw-bold" for="surface">Adresse</label> <br>
+                        <input type="number" id="address" name="surface" class="w-100 shadow inputh" min="1" required>
+                        </div>
+                        <div class="col-md-6">
+                        <label  class="couleur1 fw-bold" for="duree">Services</label> <br>
+                        <select id="serviceJournalier" name="sj" required class="w-100 shadow inputh">
+                            <option selected></option>
+                            <option>Services journalières</option>
+                            <option value="1">Electriciens</option>
+                            <option value="2">Coiffeuses à domicile</option>
+                            <option value="3">Plombiers</option>
+                            <option value="1">Menusiers</option>
+                            <option value="2">Femmes de ménage à la journée</option>
+                            <option value="3">Cuisinières pour évènements familiaux</option>
+                            <option value="1">Nounous</option>
+                            <option value="2">Cuisinères</option>
+                            <option value="3">Aides aux tâches ménagères</option>
+                            <option value="3">Lingères</option>
+                        </select>
+                        </div>
+                     
+                        <!-- <div class="form-group d-flex flex-row w-100 mt-3">
+                            <div class="col-md-6 col-sm-6 col-md-6 me-3">
+                                <button class="btn fw-bold shadow couleur1 w-100" type="submit" id="enregistrez">Envoyer</button>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-md-6">
+                                <button class="btn fw-bold shadow couleur1 w-100" type="submit" id="annuler" data-bs-dismiss="modal">Annuler</button>
+                            </div>
+                        </div>    -->
+                        <div class="form-group row mt-3 ms-2">
+                            <button class="btn fw-bold shadow boutonrd" type="submit" id="enregistrez" data-bs-dismiss="modal">Envoyer</button>
+                        </div> 
+                    </div>  
+                    </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  
+<!------------------------------------------------------ FIN-MAMA ------------------------------------------------------>
+
+
+    <!------------------------------------------------------ DEBUT-MASSAER ------------------------------------------------------>
+    <section id="prestataire" class="mt-5">
+       <div class="container">
+        <div class="d-flex justify-content-center flex-column align-items-center text-center">
+            <h1 class="couleur1 fw-bold"  data-aos="fade-up">Devenir prestataire</h1>
+            <h6 class="couleur2 mt-3 w-50 textp"  data-aos="fade-up">
+                Niafey est une plateforme unique pour tous vos besoins de services à domicile.
+                Elle permet d’accéder rapidement à des professionnels qualifiés près de chez vous.
+                Super fluide et très facile d’utilisation, l’application est téléchargeable au Sénégal et partout dans le monde
+            </h6>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6 m-0 mt-0 px-5">
+                        <div class="row">
+                                <div class="col-12 shadow d-flex justify-content-start align-items-center p-3"  data-aos="fade-right">
+                                    <img src="./images/téléchargement (8).png" alt="">
+                                    <h4 class="couleur1">Electriciens</h3>
+                                </div>
+                                <div class="col-12 shadow d-flex justify-content-start align-items-center p-3 mt-4" data-aos="fade-right">
+                                    <img src="./images/téléchargement (8).png" alt="">
+                                    <h4 class="couleur1">Plombiers</h3>
+                                </div>
+                                <div class="col-12 shadow d-flex justify-content-start align-items-center p-3 mt-4" data-aos="fade-right">
+                                    <img src="./images/téléchargement (8).png" alt="">
+                                    <h4 class="couleur1">Menuisiers</h3>
+                                </div>
+                                <div class="col-12 shadow d-flex justify-content-start align-items-center p-3 mt-4" data-aos="fade-right">
+                                    <img src="./images/téléchargement (8).png" alt="">
+                                    <h4 class="couleur1">Chauffeurs privés</h3>
+                                </div>
+                                <div class="col-12 shadow d-flex justify-content-start align-items-center p-3 mt-4" data-aos="fade-right">
+                                    <img src="./images/téléchargement (8).png" alt="">
+                                    <h4 class="couleur1">Femmes de ménage</h3>
+                                </div>
+                                <div class="col-12 shadow d-flex justify-content-start align-items-center p-3 mt-4" data-aos="fade-right">
+                                    <img src="./images/téléchargement (8).png" alt="">
+                                    <h4 class="couleur1">Coiffeuses</h3>
+                                </div>
+                                    <h5 class="couleur1 mt-5 text-start" data-aos="fade-right">...Et autres professionels</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-5 mb-5 shadow text-start" data-aos="fade-up">
+                            <div class="card-body">
+                                <div class="text1">
+                                    <h5>Gagnez jusqu'à</h5>
+                                    <h1 class="couleur3">200.000 <br> F.CFA</h1>
+                                    <h5>par mois</h5>
+                                </div>
+                                <div class="text1 mt-5">
+                                    <h1 class="couleur3">Fidélisez</h1>
+                                    <h5>vos clients</h5>
+                                </div>
+                                <div class="text1 mt-5 ">
+                                    <h5>Gérez votre</h5>
+                                    <h1 class="couleur3">planning</h1>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <section id="blog">
+       <h1 class="couleur1 fw-bold mt-5 text-center" data-aos="fade-up">Mon blog</h1>
+
+            <div class="row text-center d-flex justify-content-center align-items-center flex-column ">
+                     <p class="text-dark w-50 para" data-aos="fade-up">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum voluptate repellat, 
+                         cupiditate et cfuga, officiis enim, esse itaque. Sequi adipisci numquam 
+                         cupiditate exercitationem similique, molestiae quo.
+                     </p>               
+            </div> 
+
+        <div class="cards-wrapper mt-5">    
+            <div class="card-grid-space" data-aos="fade-right">
+                <a class="card" href="https://instagram.com/niafey_sn?igshid=YmMyMTA2M2Y=" style="--bg-img: url('./images/depositphotos_78445078-stock-photo-plumber-cleaning-sink.jpg')">
+                <div class="p-3">
+                    <div class="tags">Plombier</div>
+                  <p>Comprend l'importance de fournir un service rapide et efficace pour minimiser les perturbations dans la vie quotidienne de ses clients. </p>
+                  <div class="date couleurj">10 Mars 2023</div>
+                </div>
+                </a>
+            </div>
+            <div class="card-grid-space" data-aos="fade-up">
+                <a class="card" href="https://instagram.com/niafey_sn?igshid=YmMyMTA2M2Y=" style="--bg-img: url('./images/76e077e81bacdb68a55c67ce8a01b29b.jpg')">
+                <div class="p-3">
+                    <div class="tags">Coiffeuse</div>
+                  <p>Offre un service de qualité supérieure et en créant des looks personnalisés qui mettent en valeur la beauté naturelle des clients.</p>
+                  <div class="date couleurj">10 Mars 2023</div>
+                </div>
+              </a>
+            </div>
+            <div class="card-grid-space" data-aos="fade-left">
+                <a class="card" href="https://instagram.com/niafey_sn?igshid=YmMyMTA2M2Y=" style="--bg-img: url('./images/chauffeur-livreur.webp')">
+                <div class="p-3">
+                    <div class="tags">Chauffeur</div>
+                  <p>Est en mesure de fournir une expérience de transport de luxe inoubliable pour répondre à tous vos besoins de transport.</p>
+                  <div class="date couleurj">10 Mars 2023</div>
+                </div>
+              </a>
+            </div>
+        </div>
+
+       <div class="text-center mt-5">
+        <button type="button" class="btn bouton1 w-100 couleurj fw-bold mt-3 w-auto">Voir Plus</button>  
+       </div>
+      
+    </section>
+    
+    <section id="contacts" class="mt-5" data-aos="fade-up">
+        <div class="container-fluid app">
+              <div class="row p-5 d-flex justify-content-center align-items-center">
+                <div class="col-md-6 col-sm-12 col-lg-8  colonne">
+                    <h1 class="fw-bold">Téléchargez vite l’application NIAFEY !</h1>
+                </div>
+                <div class="col-md-6 col-sm-12 col-lg-2 colonne d-flex justify-content-center align-items-center">
+                    <a type="button" class="btn border-0 bouton" href="https://play.google.com/store/apps/details?id=com" role="button"><img src="./images/playstor.png" alt=""></a>
+                    <a type="button" class="btn border-0 bouton" href="https://apps.apple.com/sn/app/niafey/id1598905750?l=fr" role="button"><img src="./images/playstor.png" alt=""></a>
+                </div>
+              </div>
+        </div>
+
+        <div class="container-fluid shadow p-5 formulaire mt-5">
+            <h1 class="couleur1 fw-bold" data-aos="fade-up">Nous contacter</h1>
+            <form action="" class="mt-5" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-lg-6">
+                        <label class="text-secondary mb-2">Prenom & Nom</label>
+                      <input type="text" class="form-control"  aria-label="name" style="height: 50px">
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-lg-6">
+                        <label class="text-secondary mb-2">Adresse e-mail</label>
+                      <input type="email" class="form-control" aria-label="e-mail" style="height: 50px">
+                    </div>
+                </div>
+                <div class="form-floating mt-5">
+                    <label class="text-secondary mb-2">Message</label>
+                    <textarea class="form-control"  id="floatingTextarea2" style="height: 150px"></textarea>
+                </div>
+                    <button type="submit" class="btn bouton1 fw-bold text-white float-end mt-5">Envoyer</button>
+            </form>
+        </div>
+
+
+        <footer class="mt-5 p-5">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="col-md-3 colonne">
+                        <h5>Nous suivre</h5>
+                        <div class="row mt-3">
+                            <div class="icone">
+                                <p>
+                                    <a href="https://www.facebook.com/niafeyapp/" class="text-decoration-none text-dark"><i class="fab fa-facebook-square fs-5"></i> Facebook </a> 
+                                </p>
+                                <p>
+                                    <a href="https://www.linkedin.com/company/niafey/" class="text-decoration-none text-dark"><i class="fab fa-linkedin fs-5"></i> Linkdin </a> 
+                                </p>
+                                <p>
+                                    <a href="https://www.instagram.com/niafey_officiel/" class="text-decoration-none text-dark"> <i class="fab fa-instagram-square fs-5"></i> Linkdin </a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 colonne">
+                        <h5 class="mb-3">Nos services</h5>
+                        <ul class="text-dark">
+                            <li>Fonctionnement</li>
+                            <li>A propos</li>
+                            <li>Blog</li>
+                            <li>Contacts</li>
+                            <li>Reservation</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="mb-3">FAQ</h5>
+                        <a href="https://niafey.com/privacy/pills-cgu" class="text-decoration-none text-dark ">Conditions générales d’utilisation</a> <br>
+                        <a href="https://niafey.com/privacy/pills-cgu" class="text-decoration-none text-dark ">© 2021 - Tous droits réservés. Niafey</a> <br>
+                        <a href="https://niafey.com/privacy/pills-cgu" class="text-decoration-none text-dark ">Politique de confidentialité</a>
+                    </div>
+                    <div class="col-md-3 colonne">
+                        <h5 class="mb-3">Nous conctacter</h5>
+                        <h6>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:contact@niafey.com" class="text-decoration-none text-dark"> contact@niafey.com</a>
+                        </h6>
+                        <h6>
+                            <i class="fab fa-whatsapp-square"></i>
+                        <a href="https://wa.me/221781059393" class="text-decoration-none text-dark"> Whatsapp</a>
+                    </h6>
+                    <h6>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="#" class="text-decoration-none text-dark"> Petit Mbao Dakar, Sénégal</a>
+                    </h6>
+                    </div>
+                </div>  
+            </div> 
+        </footer>
+    </section>
+
+    <!-- whatsapp -->
+    <a href="https://wa.me/221781059393" id="whatsapp"><i class="fab fa-whatsapp fa-spin fs-1"></i></a>
+   
+
+    <!------------------------------------------------------ FIN-MASSAER ------------------------------------------------------>
+
+
+
+   <!-- slide -->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+
+    <script src="./index.js"></script>
+
+  <script src="index.js"></script>
+
+  <script src="https://kit.fontawesome.com/712d58e84c.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
