@@ -26,18 +26,6 @@ body{
     .navbar-scrolled .nav-link:hover {
         color: #226677 !important;
     }
-    .navbar-scrolled .boutonrd {
-        background-color: #fcd941;
-        color: #1d293f !important;
-    }
-    .navbar-scrolled .boutonrd:hover {
-        background-color:  #fcd941;
-        transform: scale(1.1);
-        color: #1d293f !important;
-    }  .navbar-scrolled .boutonrd {
-        background-color: #fcd941;
-        color: #1d293f !important;
-    }
     .navbar-scrolled .fa-bars{
         color: #fcd941;
     }
@@ -45,11 +33,6 @@ body{
     background-color:  #1d293f;
     color:  #fcd941;
 }
-.boutonrd:hover {
-     background-color:  #1d293f;
-    transform: scale(1.1);
-    color: #fcd941 !important;
-    } 
 .header .navbar-brand .img-fluid {
     width: 50%;
     height: auto;
@@ -85,6 +68,9 @@ body{
 }
 .couleurj{
     color: #fcd941;
+}
+.qr{
+    width: 50%;
 }
 
 /* BLOG */
@@ -308,13 +294,12 @@ body{
         background-size: cover;
     }
 }
-/* @media (max-width: 605px) {
+@media (max-width: 1078px) {
 
-    .para{
-       padding: 0;
-       margin: 0;
+    .btnrow{
+       margin-right: 4%;
     }
-} */
+}
 @media (max-width: 993px) {
 
     .owl-prev:before,
@@ -322,8 +307,15 @@ body{
     top: 0%;
     left: 25%;
 }
+.btnrow{
+    margin-right: 10%;
+ }
 }
-
+@media (max-width: 776px) {
+.btnrow{
+    margin-right: 0;
+ }
+}
  /* ------------------------------------------------------ FIN-MAMA ------------------------------------------------------ */
 .formulaire, #form{
     width: 60%;
@@ -342,6 +334,7 @@ body{
 .bouton1{
     background-color: #1d293f;
     color: #fcd941;
+    width: 100px !important;
 }
 .bouton1:hover{
     transform: scale(1.1);
