@@ -12,7 +12,7 @@ window.addEventListener("scroll", () => {
 });
 
 // Animation texte Section Banner
-var aText = new Array("NIAFAY, c’est simple, c’est facile, c’est rapide");
+var aText = new Array("NIAFEY, c’est simple, c’est facile, c’est rapide");
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
 var iArrLength = aText[0].length; // the length of the text array
